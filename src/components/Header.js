@@ -39,7 +39,7 @@ const Link = styled(A)`
 const Header = () => (
 	<Wrapper>
 		<Container>
-			<Title to="/project-euler">Project Euler</Title>
+			<Title to="/project-euler-solutions">Project Euler</Title>
 			<Links>
 				<Link to="/problems/1">
 					<FontAwesomeIcon icon={faList} />

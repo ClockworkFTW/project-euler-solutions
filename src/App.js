@@ -10,7 +10,7 @@ const App = () => (
 	<Router>
 		<Header />
 		<Switch>
-			<Route path="/project-euler">
+			<Route path="/project-euler-solutions">
 				<Landing />
 			</Route>
 			<Route path="/problems/:id">
