@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/project-euler-solutions/static/js/main.d6e5d9c5.chunk.js",
+    "main.js.map": "/project-euler-solutions/static/js/main.d6e5d9c5.chunk.js.map",
+    "runtime-main.js": "/project-euler-solutions/static/js/runtime-main.7f8c5d3e.js",
+    "runtime-main.js.map": "/project-euler-solutions/static/js/runtime-main.7f8c5d3e.js.map",
+    "static/css/2.117ce29f.chunk.css": "/project-euler-solutions/static/css/2.117ce29f.chunk.css",
+    "static/js/2.44138cb8.chunk.js": "/project-euler-solutions/static/js/2.44138cb8.chunk.js",
+    "static/js/2.44138cb8.chunk.js.map": "/project-euler-solutions/static/js/2.44138cb8.chunk.js.map",
+    "index.html": "/project-euler-solutions/index.html",
+    "precache-manifest.3022113d15a3c95e2754fa03531287f4.js": "/project-euler-solutions/precache-manifest.3022113d15a3c95e2754fa03531287f4.js",
+    "service-worker.js": "/project-euler-solutions/service-worker.js",
+    "static/css/2.117ce29f.chunk.css.map": "/project-euler-solutions/static/css/2.117ce29f.chunk.css.map",
+    "static/js/2.44138cb8.chunk.js.LICENSE": "/project-euler-solutions/static/js/2.44138cb8.chunk.js.LICENSE",
+    "static/media/BG1.png": "/project-euler-solutions/static/media/BG1.33545ec6.png",
+    "static/media/BG2.png": "/project-euler-solutions/static/media/BG2.57fa854e.png",
+    "static/media/BG3.png": "/project-euler-solutions/static/media/BG3.6633a16d.png",
+    "static/media/BG4.png": "/project-euler-solutions/static/media/BG4.a0d7b1fc.png",
+    "static/media/BG5.png": "/project-euler-solutions/static/media/BG5.977e3fd0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f8c5d3e.js",
+    "static/css/2.117ce29f.chunk.css",
+    "static/js/2.44138cb8.chunk.js",
+    "static/js/main.d6e5d9c5.chunk.js"
+  ]
+}
