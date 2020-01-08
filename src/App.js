@@ -10,13 +10,13 @@ const App = () => (
 	<Router>
 		<Header />
 		<Switch>
-			<Route path="/project-euler-solutions">
+			<Route path="/project-euler-solutions" exact>
 				<Landing />
 			</Route>
-			<Route path="/problems/:id">
+			<Route path="/project-euler-solutions/problems/:id">
 				<Home />
 			</Route>
-			<Route path="/about">
+			<Route path="/project-euler-solutions/about">
 				<About />
 			</Route>
 		</Switch>

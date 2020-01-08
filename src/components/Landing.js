@@ -44,7 +44,7 @@ const Landing = () => (
 					logical.
 				</Paragraph>
 			</Content>
-			<Link to="/problems/1">
+			<Link to="/project-euler-solutions/problems/1">
 				<Button width="100px">get started</Button>
 			</Link>
 		</Container>

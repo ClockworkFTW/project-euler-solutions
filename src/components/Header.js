@@ -41,10 +41,10 @@ const Header = () => (
 		<Container>
 			<Title to="/project-euler-solutions">Project Euler</Title>
 			<Links>
-				<Link to="/problems/1">
+				<Link to="/project-euler-solutions/problems/1">
 					<FontAwesomeIcon icon={faList} />
 				</Link>
-				<Link to="/about">
+				<Link to="/project-euler-solutions/about">
 					<FontAwesomeIcon icon={faQuestionCircle} />
 				</Link>
 			</Links>

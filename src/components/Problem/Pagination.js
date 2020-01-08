@@ -23,13 +23,13 @@ const Title = styled.h1`
 
 const Pagination = ({ title, id }) => (
 	<Container>
-		<Link to={`/problems/${id - 1}`}>
+		<Link to={`/project-euler-solutions/problems/${id - 1}`}>
 			<Button width="100px" disabled={id - 1 == 0}>
 				Prev
 			</Button>
 		</Link>
 		<Title>{title}</Title>
-		<Link to={`/problems/${id + 1}`}>
+		<Link to={`/project-euler-solutions/problems/${id + 1}`}>
 			<Button width="100px" disabled={id == data.length}>
 				Next
 			</Button>
