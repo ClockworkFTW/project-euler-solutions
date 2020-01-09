@@ -133,5 +133,40 @@ const solve = () => {
 solve()`,
 			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/povaYRE"
 		}
+	},
+	{
+		id: 5,
+		title: "Smallest multiple",
+		prompt: [
+			"2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.",
+			"What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?"
+		],
+		solution: {
+			value: "232792560",
+			explaination: [],
+			code: `const isEvenlyDivisible = (min, max, val) => {
+	for (let i = min; i <= max; i ++) {
+		if (val % i !== 0) {
+			return false
+		}
+	}
+	return true
+}
+
+const solve = (min, max) => {
+	let i = 1;
+	let notSolved = true;
+
+	while (notSolved) {
+		isEvenlyDivisible(min, max, i) ? notSolved = false : notSolved = true
+		i++;
+	}
+
+	return i - 1
+}
+
+solve(1, 20)`,
+			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/povaYRE"
+		}
 	}
 ];
