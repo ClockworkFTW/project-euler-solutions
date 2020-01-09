@@ -98,5 +98,40 @@ const solve = val => {
 solve(3795754)`,
 			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/NWPXJXb"
 		}
+	},
+	{
+		id: 4,
+		title: "Largest palindrome product",
+		prompt: [
+			"A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.",
+			"Find the largest palindrome made from the product of two 3-digit numbers."
+		],
+		solution: {
+			value: "906609",
+			explaination: [],
+			code: `const reverse = val => parseInt(val.toString().split("").reverse().join(""))
+
+const max = arr => arr.reduce((a, b) => Math.max(a, b))
+
+const solve = () => {
+	
+	let palindromes = []
+	
+	for (let i = 999; i > 99; i --) {
+		for (let j = 999; j > 99; j --) {
+			let product = i * j
+			if (product === reverse(product)) {
+				palindromes.push(product)
+			}
+		}
+	}
+	
+	return max(palindromes)
+	
+}
+
+solve()`,
+			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/povaYRE"
+		}
 	}
 ];

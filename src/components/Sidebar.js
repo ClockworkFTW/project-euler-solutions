@@ -34,7 +34,11 @@ const Sidebar = () => {
 	return (
 		<Container>
 			{data.map(e => (
-				<Link key={e.id} to={`/problems/${e.id}`} active={id == e.id}>
+				<Link
+					key={e.id}
+					to={`/project-euler-solutions/problems/${e.id}`}
+					active={id == e.id}
+				>
 					{e.id}. {e.title}
 				</Link>
 			))}
