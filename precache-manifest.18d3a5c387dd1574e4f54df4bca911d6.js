@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dee5953010e15647316e378c0363cb46",
+    "revision": "d51066879ec5322a848c9c98060f0440",
     "url": "/project-euler-solutions/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-euler-solutions/static/js/2.44138cb8.chunk.js.LICENSE"
   },
   {
-    "revision": "79099a0a6f3e3faf8ecb",
-    "url": "/project-euler-solutions/static/js/main.ed5d0020.chunk.js"
+    "revision": "e148fb1f2ef7d653b2fa",
+    "url": "/project-euler-solutions/static/js/main.6f8da104.chunk.js"
   },
   {
     "revision": "f1a7424cde4f21e87d67",
