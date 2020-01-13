@@ -166,7 +166,7 @@ const solve = (min, max) => {
 }
 
 solve(1, 20)`,
-			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/povaYRE"
+			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/XWJEzQZ"
 		}
 	},
 	{
@@ -204,7 +204,40 @@ const solve = max => {
 }
 
 solve(100)`,
-			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/povaYRE"
+			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/oNgdPzJ"
+		}
+	},
+	{
+		id: 7,
+		title: "10001st prime",
+		prompt: [
+			"By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.",
+			"What is the 10 001st prime number?"
+		],
+		solution: {
+			value: "104743",
+			explaination: [],
+			code: `const isPrime = val => {
+	for (let i = 2; i < val; i++) {
+		if (val % i === 0) {
+			return false
+		}
+	}
+	return true
+}
+
+const solve = max => {
+	let primes = []
+	for (let i = 0; primes.length !== max; i++) {
+		if (isPrime(i)) {
+			primes.push(i)
+		}
+	}
+	return primes[primes.length - 1]
+}
+
+solve(10001)`,
+			codepen: "https://codepen.io/clockworkftw-the-sasster/pen/dyPKGLx"
 		}
 	}
 ];
